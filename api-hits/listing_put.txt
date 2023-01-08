@@ -1,0 +1,17 @@
+{
+    "startDate": "2020-10-17",
+    "endDate": "2020-12-19",
+	"guests": 3,
+	"country": "Greece",
+	"city": "Santorini",
+	
+    "type": "FULL_APARTMENT",
+	"maxCost": 120.52,
+    "wifi": true,
+    "ac": true,
+    "heating": true,
+    "kitchen": true,
+    "tv": true,
+    "parking": true,
+    "elevator": true
+}
