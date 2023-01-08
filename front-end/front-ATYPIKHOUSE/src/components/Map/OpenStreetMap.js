@@ -12,8 +12,8 @@ class OpenStreetMap extends Component {
 
   componentDidMount(){
     this.map = L.map('map', {
-      center: [38.25,24],
-      zoom: 6,
+      center: [47.25,3.5],
+      zoom: 5.4,
       zoomControl: false
     });
 
