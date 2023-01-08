@@ -1,6 +1,0 @@
-{
-    "comment": "Πολυ καλο και καθαρο",
-    "rating": 3,
-    "listingId": 5,
-    "userId": 1
-}

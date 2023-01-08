@@ -1,2 +1,2 @@
-DROP schema airbnb;
-CREATE schema airbnb;
+DROP schema atypikhouse_db;
+CREATE schema atypikhouse_db;

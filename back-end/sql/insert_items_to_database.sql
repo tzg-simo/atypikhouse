@@ -1,12 +1,12 @@
 # MUST RUN -- Insert roles
-INSERT INTO airbnb.roles(name) VALUES('ROLE_ADMIN');
-INSERT INTO airbnb.roles(name) VALUES('ROLE_HOST');
-INSERT INTO airbnb.roles(name) VALUES('ROLE_GUEST');
+INSERT INTO atypikhouse_db.roles(name) VALUES('ROLE_ADMIN');
+INSERT INTO atypikhouse_db.roles(name) VALUES('ROLE_HOST');
+INSERT INTO atypikhouse_db.roles(name) VALUES('ROLE_GUEST');
 
 
 # ---------------------------------------------------------------- #
 # Add Users
-INSERT INTO `airbnb`.`user`
+INSERT INTO `atypikhouse_db`.`user`
 (
 `user_id`,
 `email`,
@@ -18,18 +18,18 @@ INSERT INTO `airbnb`.`user`
 `user_since`)
 VALUES
 (1,
-"admin@airbnb.test",
+"admin@atypikhouse.test",
 "Admin",
 "",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
+"$2a$10$7rN7Fb/OdzHDoCXNg9pPL.aVxjQaWz1DAxDwJGLNc0QX7eGkeP9/u",
 "admin",
 "6987939000",
 NOW());
 
-INSERT INTO `airbnb`.`user_roles` (`user_id`,`role_id`)
+INSERT INTO `atypikhouse_db`.`user_roles` (`user_id`,`role_id`)
 VALUES (1,1);
 
-INSERT INTO `airbnb`.`user`
+INSERT INTO `atypikhouse_db`.`user`
 (
 `user_id`,
 `email`,
@@ -41,18 +41,18 @@ INSERT INTO `airbnb`.`user`
 `user_since`)
 VALUES
 (2,
-"petros@airbnb.test",
-"Petros",
-"Bakolas",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
-"petros",
+"mohamed@atypikhouse.test",
+"mohamed",
+"touzghar",
+"$2a$10$7rN7Fb/OdzHDoCXNg9pPL.aVxjQaWz1DAxDwJGLNc0QX7eGkeP9/u",
+"mohamed",
 "6988654120",
 NOW());
 
-INSERT INTO `airbnb`.`user_roles` (`user_id`,`role_id`)
+INSERT INTO `atypikhouse_db`.`user_roles` (`user_id`,`role_id`)
 VALUES (2,2);
 
-INSERT INTO `airbnb`.`user`
+INSERT INTO `atypikhouse_db`.`user`
 (
 `user_id`,
 `email`,
@@ -64,46 +64,20 @@ INSERT INTO `airbnb`.`user`
 `user_since`)
 VALUES
 (3,
-"giannis@airbnb.test",
-"Giannis",
-"Fotis",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
-"giannis",
+"simo@atypikhouse.test",
+"simo",
+"tzg",
+"$2a$10$7rN7Fb/OdzHDoCXNg9pPL.aVxjQaWz1DAxDwJGLNc0QX7eGkeP9/u",
+"simo",
 "6990564871",
 NOW());
 
-INSERT INTO `airbnb`.`user_roles` (`user_id`,`role_id`)
+INSERT INTO `atypikhouse_db`.`user_roles` (`user_id`,`role_id`)
 VALUES (3,3);
-
-INSERT INTO `airbnb`.`user`
-(
-`user_id`,
-`email`,
-`first_name`,
-`last_name`,
-`password`,
-`username`,
-`number`,
-`user_since`)
-VALUES
-(4,
-"giovani@airbnb.test",
-"Giovani",
-"Ratouri",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
-"giovani",
-"6998451220",
-NOW());
-
-INSERT INTO `airbnb`.`user_roles` (`user_id`,`role_id`)
-VALUES(4,2);
-INSERT INTO `airbnb`.`user_roles` (`user_id`,`role_id`)
-VALUES(4,3);
-
 
 # ---------------------------------------------------------------- #
 # Add listings
-INSERT INTO `airbnb`.`listing`
+INSERT INTO `atypikhouse_db`.`listing`
 (
 `listing_id`,
 `title`,
@@ -181,7 +155,7 @@ VALUES
 2
 );
 
-INSERT INTO `airbnb`.`listing`
+INSERT INTO `atypikhouse_db`.`listing`
 (
 `listing_id`,
 `title`,
@@ -259,7 +233,7 @@ VALUES
 2
 );
 
-INSERT INTO `airbnb`.`listing`
+INSERT INTO `atypikhouse_db`.`listing`
 (
 `listing_id`,
 `title`,
@@ -340,7 +314,7 @@ VALUES
 
 # ---------------------------------------------------------------- #
 # Add bookings
-INSERT INTO `airbnb`.`booking`
+INSERT INTO `atypikhouse_db`.`booking`
 (
 `booking_id`,
 `date`,
@@ -353,7 +327,7 @@ NOW(),
 1,
 3);
 
-INSERT INTO `airbnb`.`booking`
+INSERT INTO `atypikhouse_db`.`booking`
 (
 `booking_id`,
 `date`,
@@ -366,7 +340,7 @@ NOW(),
 2,
 4);
 
-INSERT INTO `airbnb`.`booking`
+INSERT INTO `atypikhouse_db`.`booking`
 (
 `booking_id`,
 `date`,
@@ -382,7 +356,7 @@ NOW(),
 
 # ---------------------------------------------------------------- #
 # Add reviews
-INSERT INTO `airbnb`.`review`
+INSERT INTO `atypikhouse_db`.`review`
 (
 `review_id`,
 `comment`,
@@ -401,7 +375,7 @@ NOW(),
 
 # ---------------------------------------------------------------- #
 # Add messages
-INSERT INTO `airbnb`.`message`
+INSERT INTO `atypikhouse_db`.`message`
 (
 `message_id`,
 `seen`,

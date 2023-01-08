@@ -18,10 +18,10 @@ INSERT INTO `atypikhouse_db`.`user`
 `approved`)
 VALUES
 (1,
-"admin@airbnb.test",
+"admin@atypikhouse.test",
 "Admin",
 "",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
+"$2a$10$7rN7Fb/OdzHDoCXNg9pPL.aVxjQaWz1DAxDwJGLNc0QX7eGkeP9/u",
 "admin",
 "6987939000",
 NOW(),
@@ -43,11 +43,11 @@ INSERT INTO `atypikhouse_db`.`user`
 `approved`)
 VALUES
 (2,
-"petros@airbnb.test",
-"Petros",
-"Bakolas",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
-"petros",
+"mohamed@atypikhouse.test",
+"mohamed",
+"touzghar",
+"$2a$10$7rN7Fb/OdzHDoCXNg9pPL.aVxjQaWz1DAxDwJGLNc0QX7eGkeP9/u",
+"mohamed",
 "6988654120",
 NOW(),
 true);
@@ -68,323 +68,15 @@ INSERT INTO `atypikhouse_db`.`user`
 `approved`)
 VALUES
 (3,
-"giannis@airbnb.test",
-"Giannis",
-"Fotis",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
-"giannis",
+"simo@atypikhouse.test",
+"simo",
+"tzg",
+"$2a$10$7rN7Fb/OdzHDoCXNg9pPL.aVxjQaWz1DAxDwJGLNc0QX7eGkeP9/u",
+"simo",
 "6990564871",
 NOW(),
 null);
 
-INSERT INTO `atypikhouse_db`.`user_roles` (`user_id`,`role_id`)
-VALUES (3,3);
-
-INSERT INTO `atypikhouse_db`.`user`
-(
-`user_id`,
-`email`,
-`first_name`,
-`last_name`,
-`password`,
-`username`,
-`number`,
-`user_since`,
-`approved`)
-VALUES
-(4,
-"giovani@airbnb.test",
-"Giovani",
-"Ratouri",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
-"giovani",
-"6998451220",
-NOW(),
-false);
-
-INSERT INTO `atypikhouse_db`.`user_roles` (`user_id`,`role_id`)
-VALUES(4,2);
-INSERT INTO `atypikhouse_db`.`user_roles` (`user_id`,`role_id`)
-VALUES(4,3);
-
-INSERT INTO `atypikhouse_db`.`user`
-(
-`user_id`,
-`email`,
-`first_name`,
-`last_name`,
-`password`,
-`username`,
-`number`,
-`user_since`,
-`approved`)
-VALUES
-(5,
-"giorgos@airbnb.test",
-"Giorgos",
-"Karamanos",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
-"giorgos",
-"6988574635",
-NOW(),
-true);
-
-INSERT INTO `atypikhouse_db`.`user_roles` (`user_id`,`role_id`)
-VALUES (5,2);
-
-INSERT INTO `atypikhouse_db`.`user`
-(
-`user_id`,
-`email`,
-`first_name`,
-`last_name`,
-`password`,
-`username`,
-`number`,
-`user_since`,
-`approved`)
-VALUES
-(6,
-"mixalis@airbnb.test",
-"Mixalis",
-"Papageorgioy",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
-"mixalis",
-"6987564738",
-NOW(),
-false);
-
-INSERT INTO `atypikhouse_db`.`user_roles` (`user_id`,`role_id`)
-VALUES (6,2);
-
-INSERT INTO `atypikhouse_db`.`user`
-(
-`user_id`,
-`email`,
-`first_name`,
-`last_name`,
-`password`,
-`username`,
-`number`,
-`user_since`,
-`approved`)
-VALUES
-(7,
-"kostas@airbnb.test",
-"Κώστας",
-"Σουλιώτης",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
-"kostas",
-"6987564730",
-NOW(),
-null);
-
-`INSERT INTO `a`typikhouse_db`.`user_roles` (`user_id`,`role_id`)
-VALUES (7,3);
-
-INSERT INTO `atypikhouse_db`.`user`
-(
-`user_id`,
-`email`,
-`first_name`,
-`last_name`,
-`password`,
-`username`,
-`number`,
-`user_since`,
-`approved`)
-VALUES
-(8,
-"dimitris@airbnb.test",
-"Δημήτρης",
-"Καραμανλής",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
-"dimitris",
-"6985712098",
-NOW(),
-null);
-
-INSERT INTO `atypikhouse_db`.`user_roles` (`user_id`,`role_id`)
-VALUES (8,3);
-
-INSERT INTO `atypikhouse_db`.`user`
-(
-`user_id`,
-`email`,
-`first_name`,
-`last_name`,
-`password`,
-`username`,
-`number`,
-`user_since`,
-`approved`)
-VALUES
-(9,
-"anestis@airbnb.test",
-"Anestis",
-"Triantafilou",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
-"anestis",
-"6932685740",
-NOW(),
-null);
-
-INSERT INTO `atypikhouse_db`.`user_roles` (`user_id`,`role_id`)
-VALUES (9,3);
-
-INSERT INTO `atypikhouse_db`.`user`
-(
-`user_id`,
-`email`,
-`first_name`,
-`last_name`,
-`password`,
-`username`,
-`number`,
-`user_since`,
-`approved`)
-VALUES
-(10,
-"giorgio@airbnb.test",
-"Giorgio",
-"Gutten",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
-"giorgio",
-"699584736",
-NOW(),
-true);
-
-INSERT INTO `atypikhouse_db`.`user_roles` (`user_id`,`role_id`)
-VALUES(10,2);
-INSERT INTO `atypikhouse_db`.`user_roles` (`user_id`,`role_id`)
-VALUES(10,3);
-
-INSERT INTO `atypikhouse_db`.`user`
-(
-`user_id`,
-`email`,
-`first_name`,
-`last_name`,
-`password`,
-`username`,
-`number`,
-`user_since`,
-`approved`)
-VALUES
-(11,
-"mpampis@airbnb.test",
-"Mpampis",
-"Deloglou",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
-"mpampis",
-"6990564471",
-NOW(),
-false);
-
-INSERT INTO `atypikhouse_db`.`user_roles` (`user_id`,`role_id`)
-VALUES (11,2);
-
-INSERT INTO `atypikhouse_db`.`user`
-(
-`user_id`,
-`email`,
-`first_name`,
-`last_name`,
-`password`,
-`username`,
-`number`,
-`user_since`,
-`approved`)
-VALUES
-(12,
-"katerina@airbnb.test",
-"Katerina",
-"Papadopoulou",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
-"katerina",
-"6933564871",
-NOW(),
-true);
-
-INSERT INTO `atypikhouse_db`.`user_roles` (`user_id`,`role_id`)
-VALUES (12,2);
-
-INSERT INTO `atypikhouse_db`.`user`
-(
-`user_id`,
-`email`,
-`first_name`,
-`last_name`,
-`password`,
-`username`,
-`number`,
-`user_since`,
-`approved`)
-VALUES
-(13,
-"maria@airbnb.test",
-"Maria",
-"Ioannou",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
-"maria",
-"6990564571",
-NOW(),
-null);
-
-INSERT INTO `atypikhouse_db`.`user_roles` (`user_id`,`role_id`)
-VALUES (13,3);
-
-INSERT INTO `atypikhouse_db`.`user`
-(
-`user_id`,
-`email`,
-`first_name`,
-`last_name`,
-`password`,
-`username`,
-`number`,
-`user_since`,
-`approved`)
-VALUES
-(14,
-"ioanna@airbnb.test",
-"Ioanna",
-"Xaniwth",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
-"ioanna",
-"6997364871",
-NOW(),
-null);
-
-INSERT INTO `atypikhouse_db`.`user_roles` (`user_id`,`role_id`)
-VALUES (14,3);
-
-INSERT INTO `atypikhouse_db`.`user`
-(
-`user_id`,
-`email`,
-`first_name`,
-`last_name`,
-`password`,
-`username`,
-`number`,
-`user_since`,
-`approved`)
-VALUES
-(15,
-"eugenia@airbnb.test",
-"Eugenia",
-"Krhtikou",
-"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
-"eugenia",
-"6990004871",
-NOW(),
-true);
-
-INSERT INTO `atypikhouse_db`.`user_roles` (`user_id`,`role_id`)
-VALUES (15,2);
-INSERT INTO `atypikhouse_db`.`user_roles` (`user_id`,`role_id`)
-VALUES (15,3);
 
 /*------------------ Listings --------------------*/
 
