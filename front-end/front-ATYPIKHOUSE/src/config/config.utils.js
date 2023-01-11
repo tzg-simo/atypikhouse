@@ -1,3 +1,3 @@
-const API = 'https://475c-105-158-69-152.eu.ngrok.io/atypikhouse/api';
+const API = 'http://localhost:8080/atypikhouse/api';
 
 export{ API }
