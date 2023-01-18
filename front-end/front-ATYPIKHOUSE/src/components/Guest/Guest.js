@@ -41,7 +41,7 @@ class GuestBoard extends Component {
   render() {
     return (
       <React.Fragment>
-        <main className="container" style={{width: '100%', padding: '5%', marginTop: '10%', backgroundColor: '#ff9', textAlign: 'center', border: 'solid 3px purple'}}>
+        <main className="container" style={{width: '100%', padding: '5%', marginTop: '10%', backgroundColor: '#fff', textAlign: 'center', border: 'solid 3px #ccc'}}>
           <h2>My bookings</h2>
           <GuestBookingList bookings={this.state.bookings} loading={this.state.loading}/>
         </main>

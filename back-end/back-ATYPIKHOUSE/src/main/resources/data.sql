@@ -121,7 +121,7 @@ INSERT INTO `atypikhouse_db`.`listing`
 VALUES
 (
 1,
-"Room for two in Santorini",
+"Room for two in Paris",
 "PRIVATE_ROOM",
 1,
 1,
@@ -137,10 +137,10 @@ VALUES
 36.419255,
 25.432139,
 "-",
-"Greece",
-"Santorini",
+"France",
+"Paris",
 "84700",
-"Thira",
+"Rue 50",
 "Bus stop 100m from the apartment",
 68.5,
 30.2,
@@ -151,8 +151,8 @@ VALUES
 1,
 1,
 0,
-"2020-01-18",
-"2020-10-20",
+"2023-10-01",
+"2023-10-20",
 1,
 4.0,
 2
@@ -199,7 +199,7 @@ INSERT INTO `atypikhouse_db`.`listing`
 VALUES
 (
 2,
-"Room for one in Santorini",
+"Room for one in Paris",
 "SHARED_ROOM",
 1,
 1,
@@ -215,10 +215,10 @@ VALUES
 36.417400,
 25.435035,
 "-",
-"Greece",
-"Santorini",
+"France",
+"Paris",
 "84700",
-"Thira",
+"Rue 6",
 "Bus stop 100m from the apartment",
 48.5,
 0,
@@ -229,8 +229,8 @@ VALUES
 1,
 1,
 0,
-"2020-01-18",
-"2020-10-20",
+"2023-01-01",
+"2022-10-20",
 1,
 3.0,
 2
@@ -277,7 +277,7 @@ INSERT INTO `atypikhouse_db`.`listing`
 VALUES
 (
 3,
-"Apartment for 3 in Kithira",
+"Apartment for 3",
 "FULL_APARTMENT",
 3,
 2,
@@ -293,10 +293,10 @@ VALUES
 36.411290,
 25.447246,
 "-",
-"Greece",
-"Santorini",
+"France",
+"Paris",
 "84700",
-"Karterados",
+"Reims",
 "Center with taxi and bus 500m away",
 40.5,
 20.2,
@@ -307,8 +307,8 @@ VALUES
 1,
 1,
 1,
-"2020-01-01",
-"2020-12-30",
+"2023-01-01",
+"2024-01-01",
 0,
 0.0,
 5
@@ -355,7 +355,7 @@ INSERT INTO `atypikhouse_db`.`listing`
 VALUES
 (
 4,
-"Private room in Santorini with parking",
+"Private room in Paris with parking",
 "PRIVATE_ROOM",
 2,
 2,
@@ -371,10 +371,10 @@ VALUES
 36.411886,
 25.452948,
 "-",
-"Greece",
-"Santorini",
+"France",
+"Paris",
 "84700",
-"Karterados",
+"Reims",
 "Bus stop close and renting cars near by",
 80.5,
 30.2,
@@ -385,8 +385,8 @@ VALUES
 1,
 1,
 1,
-"2020-01-01",
-"2020-12-30",
+"2023-01-01",
+"2024-01-01",
 1,
 5.0,
 2
@@ -433,14 +433,14 @@ INSERT INTO `atypikhouse_db`.`listing`
 VALUES
 (
 5,
-"Very big apartment at the center of Thira",
+"Very big apartment at the center of the house",
 "FULL_APARTMENT",
 4,
 1,
 3,
 1,
 83.48,
-"Ideally located a unique house in a very peaceful neighborhood of Thira, at the center. It is a traditional house in the heart of the historical center. ",
+"Ideally located a unique house in a very peaceful neighborhood of the house, at the center. It is a traditional house in the heart of the historical center. ",
 0,
 1,
 0,
@@ -449,10 +449,10 @@ VALUES
 36.375470,
 25.482676,
 "-",
-"Greece",
-"Santorini",
+"France",
+"Paris",
 "84700",
-"Kamari",
+"Vincent",
 "Bus stop close and renting cars near by",
 30.5,
 15.2,
@@ -463,8 +463,8 @@ VALUES
 1,
 1,
 0,
-"2020-01-01",
-"2020-12-30",
+"2023-01-01",
+"2024-01-01",
 1,
 1.0,
 2
@@ -511,7 +511,7 @@ INSERT INTO `atypikhouse_db`.`listing`
 VALUES
 (
 6,
-"ATHENS DESIGNER''S LOFT DOWNTOWN ",
+"Marseille DESIGNER''S LOFT DOWNTOWN ",
 "PRIVATE_ROOM",
 2,
 1,
@@ -526,12 +526,12 @@ VALUES
 2,
 37.979523,
 23.723668,
-"Pallados 12",
-"Greece",
-"Athens",
+"Rouen 79",
+"France",
+"Marseille",
 "10554",
-"Psyri",
-"metro station MONASTIRAKI",
+"Charles",
+"metro station charles",
 40.5,
 16.2,
 1,
@@ -541,8 +541,8 @@ VALUES
 1,
 0,
 1,
-"2020-01-01",
-"2020-12-30",
+"2023-01-01",
+"2024-01-01",
 0,
 0.0,
 5
@@ -589,14 +589,14 @@ INSERT INTO `atypikhouse_db`.`listing`
 VALUES
 (
 7,
-"A 2-bdrm house in Plaka of Athens",
+"A 2-bdrm house in playa of Marseille",
 "PRIVATE_ROOM",
 2,
 1,
 2,
 1,
 53.48,
-"Ideally located a unique house in a very peaceful neighborhood of Plaka, near Acropolis. It is a traditional house in the heart of the historical center of Athens, in Plaka. ",
+"Ideally located a unique house in a very peaceful neighborhood of playa, near bus. It is a traditional house in the heart of the historical center of Marseille, in playa. ",
 1,
 1,
 1,
@@ -604,11 +604,11 @@ VALUES
 3,
 37.969470,
 23.729083,
-"Vyronos 22",
-"Greece",
-"Athens",
+"Lille 22",
+"France",
+"Marseille",
 "10558",
-"Plaka",
+"Etretat",
 "-",
 50.5,
 26.2,
@@ -619,8 +619,8 @@ VALUES
 1,
 0,
 1,
-"2020-01-01",
-"2020-12-30",
+"2023-01-01",
+"2024-01-01",
 2,
 4.0,
 5
@@ -667,14 +667,14 @@ INSERT INTO `atypikhouse_db`.`listing`
 VALUES
 (
 8,
-"Just 200m from Acropolis, Athens",
+"Just 200m from bus, Marseille",
 "SHARED_ROOM",
 1,
 1,
 1,
 0,
 13.48,
-"Sunny & Quiet room at the first floor in a beauty full building. Just 100 meters from Acropolis & 30 meters from the Acropolis Musuem. Bedroom with double futon bed, a kitchen, wireless internet, landline and a confortable bathroom.",
+"Sunny & Quiet room at the first floor in a beauty full building. Just 100 meters from bus & 30 meters from the bus Musuem. Bedroom with double futon bed, a kitchen, wireless internet, landline and a confortable bathroom.",
 1,
 0,
 0,
@@ -682,11 +682,11 @@ VALUES
 1,
 37.968869,
 23.728969,
-"Chatzichristou 218",
-"Greece",
-"Athens",
+"Reims 75",
+"France",
+"Marseille",
 "11742",
-"Akropoli",
+"Reims",
 "-",
 30.5,
 0.0,
@@ -697,8 +697,8 @@ VALUES
 0,
 0,
 1,
-"2020-01-01",
-"2020-12-30",
+"2023-01-01",
+"2024-01-01",
 0,
 0.0,
 5
@@ -745,14 +745,14 @@ INSERT INTO `atypikhouse_db`.`listing`
 VALUES
 (
 9,
-"Center of Athens (Akropoli)",
+"Center of Marseille",
 "FULL_APARTMENT",
 2,
 1,
 1,
 1,
 48.96,
-"A comfortable appartment very close to the center ( monastiraki, thisio , akropoli, kerameiko, plaka) , metro station kerameikos (blue line) and train station petralona (green line) Very close to the Center, two foltable bikes, washing machine, oven , fridge, king size bed, balcony, close to super market, kafe - bar LOLA. You can host a third person without charges We have to bikes which you are allowed to use!!!",
+"A comfortable appartment very close to the center , metro station (blue line) and train station (green line) Very close to the Center, two foltable bikes, washing machine, oven , fridge, king size bed, balcony, close to super market, kafe - bar LOLA. You can host a third person without charges We have to bikes which you are allowed to use!!!",
 1,
 1,
 1,
@@ -760,12 +760,12 @@ VALUES
 3,
 37.973318,
 23.711678,
-"Thessalonikis 18",
-"Greece",
-"Athens",
+"Reims 76",
+"France",
+"Marseille",
 "11854",
-"Petralona",
-"1.Metro station KERAMEIKOS(blue line ) 8 minutes , 650 metres 2. Train station PETRALONA ( green line ) 9 minutes 750 metres 3. Bike  4. Walk to center 20 minutes  1,6 km",
+"Charles",
+"1.Metro station Charles (blue line ) 8 minutes , 650 metres 2. Train station Charles ( green line ) 9 minutes 750 metres 3. Bike  4. Walk to center 20 minutes  1,6 km",
 40.5,
 26.0,
 1,
@@ -775,8 +775,8 @@ VALUES
 1,
 1,
 1,
-"2020-01-01",
-"2020-12-30",
+"2023-01-01",
+"2024-01-01",
 0,
 0.0,
 10
@@ -823,14 +823,14 @@ INSERT INTO `atypikhouse_db`.`listing`
 VALUES
 (
 10,
-"Great apt! amazing Athens location!",
+"Great apt! amazing Marseille location!",
 "FULL_APARTMENT",
 2,
 1,
 1,
 1,
 49.96,
-"Great apt newly renovated but with an old world charm, fully furnished and equipped,  with the feel of HOME because it is my home when I am in Athens. Quiet neighborhood, the greenest of central Athens.  Walking distance from Athens center (Syntagma sq. Kolonaki, all Museums and Acropolis) and with lots of quick public transportation.",
+"Great apt newly renovated but with an old world charm, fully furnished and equipped,  with the feel of HOME because it is my home when I am in Marseille. Quiet neighborhood, the greenest of central Marseille.  Walking distance from Marseille center and with lots of quick public transportation.",
 1,
 1,
 1,
@@ -838,12 +838,12 @@ VALUES
 3,
 37.965430,
 23.740246,
-"Anthippou 54",
-"Greece",
-"Athens",
+"Bretagne 54",
+"France",
+"Marseille",
 "11636",
-"1Ο ΝΕΚΡΟΤΑΦΕΙΟ",
-"Very convenient public transportation (4 trolley lines and 3 buses)  and a taxi stand  One can walk to many places of interest (Acropolis and most Museums)",
+"Charles",
+"Very convenient public transportation (4 trolley lines and 3 buses)  and a taxi stand  One can walk to many places of interest (bus and most Museums)",
 41.5,
 28.0,
 1,
@@ -854,7 +854,7 @@ VALUES
 1,
 1,
 "2019-01-01",
-"2020-12-30",
+"2024-01-01",
 0,
 0.0,
 10
@@ -901,14 +901,14 @@ INSERT INTO `atypikhouse_db`.`listing`
 VALUES
 (
 11,
-"NEW luxury flat 80m from metro 3brs",
+"NEW luxury flat 80m from metro",
 "PRIVATE_ROOM",
 2,
 1,
 1,
 0,
 59.5,
-"Newly renovated, easy access to the center of athens",
+"Newly renovated, easy access to the center of Marseille",
 0,
 1,
 1,
@@ -916,11 +916,11 @@ VALUES
 2,
 37.965430,
 23.740228,
-"Georgiou Maridaki",
-"Greece",
-"Athens",
+"Toulon 20",
+"France",
+"Marseille",
 "11143",
-"Patisia",
+"Charles",
 "Train stop closeby",
 60.5,
 33.2,
@@ -932,7 +932,7 @@ VALUES
 1,
 0,
 "2019-03-18",
-"2020-11-21",
+"2022-11-21",
 2,
 2.0,
 12
@@ -994,11 +994,11 @@ VALUES
 3,
 37.965430,
 23.740148,
-"Psarwn 21",
-"Greece",
-"Athens",
+"Toulon 20",
+"France",
+"Marseille",
 "11143",
-"Metaxourgeio",
+"Notre dame",
 "Metro station at 150m",
 45.5,
 30.2,
@@ -1009,8 +1009,8 @@ VALUES
 1,
 1,
 0,
-"2020-07-18",
-"2020-12-21",
+"2022-07-18",
+"2022-12-21",
 3,
 4.0,
 12
@@ -1057,7 +1057,7 @@ INSERT INTO `atypikhouse_db`.`listing`
 VALUES
 (
 13,
-"Beautiful central flat with veranda",
+"Beautiful central flat",
 "SHARED_ROOM",
 3,
 1,
@@ -1072,12 +1072,12 @@ VALUES
 3,
 37.965440,
 23.740248,
-"Granikou 47",
-"Greece",
-"Athens",
+"Paris 82",
+"France",
+"Marseille",
 "10435",
-"Larissis",
-"Taxi and Tram at 100m",
+"Toulon",
+"Plage à 50m",
 65.5,
 50.2,
 1,
@@ -1087,7 +1087,7 @@ VALUES
 1,
 1,
 0,
-"2020-04-18",
+"2022-04-18",
 "2021-02-01",
 2,
 3.0,
@@ -1135,7 +1135,7 @@ INSERT INTO `atypikhouse_db`.`listing`
 VALUES
 (
 14,
-"Sunny Penthouse in heart of Athens",
+"Sunny Penthouse in heart of Marseille",
 "FULL_APARTMENT",
 4,
 2,
@@ -1150,12 +1150,12 @@ VALUES
 5,
 37.965433,
 23.740248,
-"Iasonos 17",
-"Greece",
-"Athens",
+"Toulon 17",
+"France",
+"Marseille",
 "10436",
-"Larissis",
-"Tram, bus and metro options",
+"Paris",
+"Près de la plage",
 55.5,
 49.2,
 1,
@@ -1165,7 +1165,7 @@ VALUES
 1,
 1,
 0,
-"2020-04-18",
+"2022-04-18",
 "2021-02-01",
 3,
 4.67,
@@ -1228,12 +1228,12 @@ VALUES
 2,
 37.965430,
 23.740248,
-"Argous 36",
-"Greece",
-"Athens",
+"Toulon 36",
+"France",
+"Marseille",
 "10441",
-"Larissis",
-"Next to metro station",
+"Paris",
+"Près de la plage",
 45.5,
 32.2,
 1,
@@ -1243,7 +1243,7 @@ VALUES
 1,
 1,
 0,
-"2020-04-18",
+"2022-04-18",
 "2021-03-11",
 2,
 3.5,
@@ -1261,7 +1261,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 1,
-"2020-11-25",
+"2022-11-25",
 1,
 3);
 INSERT INTO `atypikhouse_db`.`booking`
@@ -1273,7 +1273,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 2,
-"2020-11-26",
+"2022-11-26",
 1,
 3);
 INSERT INTO `atypikhouse_db`.`booking`
@@ -1285,7 +1285,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 3,
-"2020-11-27",
+"2022-11-27",
 1,
 3);
 
@@ -1298,7 +1298,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 4,
-"2020-11-28",
+"2022-11-28",
 2,
 4);
 
@@ -1311,7 +1311,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 5,
-"2020-12-27",
+"2022-12-27",
 3,
 3);
 
@@ -1324,7 +1324,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 6,
-"2020-12-25",
+"2022-12-25",
 4,
 7);
 INSERT INTO `atypikhouse_db`.`booking`
@@ -1336,7 +1336,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 7,
-"2020-12-26",
+"2022-12-26",
 4,
 7);
 
@@ -1349,7 +1349,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 8,
-"2020-08-26",
+"2022-08-26",
 5,
 7);
 
@@ -1362,7 +1362,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 9,
-"2020-07-27",
+"2022-07-27",
 4,
 8);
 
@@ -1375,7 +1375,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 10,
-"2020-07-27",
+"2022-07-27",
 6,
 8);
 INSERT INTO `atypikhouse_db`.`booking`
@@ -1387,7 +1387,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 11,
-"2020-07-28",
+"2022-07-28",
 6,
 8);
 INSERT INTO `atypikhouse_db`.`booking`
@@ -1399,7 +1399,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 12,
-"2020-07-29",
+"2022-07-29",
 6,
 8);
 INSERT INTO `atypikhouse_db`.`booking`
@@ -1411,7 +1411,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 13,
-"2020-07-30",
+"2022-07-30",
 6,
 8);
 
@@ -1424,7 +1424,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 14,
-"2020-11-14",
+"2022-11-14",
 7,
 8);
 INSERT INTO `atypikhouse_db`.`booking`
@@ -1436,7 +1436,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 15,
-"2020-11-15",
+"2022-11-15",
 7,
 8);
 
@@ -1449,7 +1449,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 16,
-"2020-12-14",
+"2022-12-14",
 9,
 9);
 INSERT INTO `atypikhouse_db`.`booking`
@@ -1461,7 +1461,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 17,
-"2020-12-15",
+"2022-12-15",
 9,
 9);
 INSERT INTO `atypikhouse_db`.`booking`
@@ -1473,7 +1473,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 18,
-"2020-12-16",
+"2022-12-16",
 9,
 9);
 
@@ -1512,7 +1512,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 21,
-"2020-10-15",
+"2022-10-15",
 11,
 13);
 
@@ -1525,7 +1525,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 22,
-"2020-10-17",
+"2022-10-17",
 12,
 13);
 
@@ -1538,7 +1538,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 23,
-"2020-10-20",
+"2022-10-20",
 13,
 13);
 
@@ -1551,7 +1551,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 24,
-"2020-11-17",
+"2022-11-17",
 14,
 13);
 
@@ -1564,7 +1564,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 25,
-"2020-12-17",
+"2022-12-17",
 15,
 13);
 
@@ -1577,7 +1577,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 26,
-"2020-12-18",
+"2022-12-18",
 12,
 14);
 
@@ -1590,7 +1590,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 27,
-"2020-11-07",
+"2022-11-07",
 13,
 14);
 
@@ -1603,7 +1603,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 28,
-"2020-12-09",
+"2022-12-09",
 14,
 14);
 
@@ -1616,7 +1616,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 29,
-"2020-10-17",
+"2022-10-17",
 15,
 14);
 
@@ -1629,7 +1629,7 @@ INSERT INTO `atypikhouse_db`.`booking`
 VALUES
 (
 30,
-"2020-10-27",
+"2022-10-27",
 11,
 14);
 
@@ -1646,8 +1646,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 1,
-"Τελειο ηταν",
-"2020-11-27",
+"Très bien",
+"2022-11-27",
 4,
 1,
 3);
@@ -1663,8 +1663,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 2,
-"Θεματακια υπηρχαν",
-"2020-11-28",
+"Très bien",
+"2022-11-28",
 3,
 2,
 4);
@@ -1680,8 +1680,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 3,
-"Το συνιστώ!",
-"2020-12-26",
+"J'aime bien",
+"2022-12-26",
 5,
 4,
 7);
@@ -1697,8 +1697,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 4,
-"Ηταν πολυ κακό",
-"2020-08-26",
+"J'aime bien",
+"2022-08-26",
 1,
 5,
 7);
@@ -1714,8 +1714,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 5,
-"Ηταν πολυ κακό",
-"2020-08-26",
+"Bien",
+"2022-08-26",
 1,
 5,
 7);
@@ -1731,8 +1731,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 6,
-"Ηταν πολυ κακό",
-"2020-12-26",
+"Good",
+"2022-12-26",
 1,
 11,
 13);
@@ -1748,8 +1748,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 7,
-"Metria empeiria",
-"2020-12-26",
+"Bien",
+"2022-12-26",
 3,
 12,
 13);
@@ -1765,8 +1765,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 8,
-"Arketa kalo",
-"2020-12-26",
+"Good",
+"2022-12-26",
 4,
 13,
 13);
@@ -1782,8 +1782,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 9,
-"Poly kalo, to sytino",
-"2020-12-26",
+"J'aime bien",
+"2022-12-26",
 5,
 14,
 13);
@@ -1799,8 +1799,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 10,
-"Tha ksanaphgaina",
-"2020-12-28",
+"J'aime bien",
+"2022-12-28",
 5,
 14,
 13);
@@ -1816,8 +1816,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 11,
-"Oxi kai toso katharo",
-"2020-12-26",
+"J'aime bien",
+"2022-12-26",
 2,
 15,
 13);
@@ -1833,8 +1833,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 12,
-"Arketa akrivo",
-"2020-12-26",
+"Bon",
+"2022-12-26",
 3,
 11,
 14);
@@ -1850,8 +1850,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 13,
-"Poly orea empeiria",
-"2020-12-26",
+"Bon",
+"2022-12-26",
 5,
 12,
 14);
@@ -1867,8 +1867,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 14,
-"Arketa kalo",
-"2020-12-30",
+"Good",
+"2024-01-01",
 4,
 12,
 14);
@@ -1884,8 +1884,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 15,
-"Den tha to ksanaekleina",
-"2020-12-26",
+"Bon",
+"2022-12-26",
 2,
 13,
 14);
@@ -1901,8 +1901,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 16,
-"Emeina euxaristhmenh",
-"2020-12-26",
+"Bon",
+"2022-12-26",
 4,
 14,
 14);
@@ -1918,8 +1918,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 17,
-"Poly eugenikoi idiokthtes kai katharo",
-"2020-12-26",
+"Bon",
+"2022-12-26",
 5,
 15,
 14);
@@ -1935,8 +1935,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 18,
-"Kalh empeiria, to sytino",
-"2020-12-26",
+"Très bien",
+"2022-12-26",
 4,
 7,
 13);
@@ -1952,8 +1952,8 @@ INSERT INTO `atypikhouse_db`.`review`
 VALUES
 (
 19,
-"Den tha sas apogohteusei",
-"2020-12-26",
+"J'aime bien trop calme",
+"2022-12-26",
 4,
 7,
 14);
@@ -1975,7 +1975,7 @@ VALUES
 1,
 0,
 NOW(),
-"Καλησπέρα σας",
+"Bonjour",
 1,
 3);
 
@@ -1994,7 +1994,7 @@ VALUES
 0,
 1,
 NOW(),
-"Καλησπέρα και σε εσας",
+"Salut",
 1,
 3);
 
@@ -2013,7 +2013,7 @@ VALUES
 0,
 0,
 NOW(),
-"Tha ithela na sas kano mia erotisi",
+"Bon appartement",
 1,
 3);
 
@@ -2032,7 +2032,7 @@ VALUES
 0,
 0,
 NOW(),
-"Sxetika me thn aggelia sas",
+"Bon appartement",
 1,
 3);
 
@@ -2051,7 +2051,7 @@ VALUES
 0,
 0,
 NOW(),
-"Gia to domatio sth santorini",
+"Bon lieu à Marseille",
 1,
 3);
 
@@ -2070,7 +2070,7 @@ VALUES
 0,
 0,
 NOW(),
-"Kalhspera",
+"Good",
 1,
 13);
 
@@ -2089,7 +2089,7 @@ VALUES
 0,
 0,
 NOW(),
-"Poso konta einai to domatio se stash leoforeiou?",
+"Bon appartement",
 1,
 13);
 
@@ -2108,7 +2108,7 @@ VALUES
 0,
 0,
 NOW(),
-"Einai eukolh h prosvash?",
+"J'aime bien",
 1,
 13);
 
@@ -2127,7 +2127,7 @@ VALUES
 0,
 0,
 NOW(),
-"Yparxei dynatotha proinou?",
+"Bon appartement",
 1,
 13);
 
@@ -2146,7 +2146,7 @@ VALUES
 0,
 0,
 NOW(),
-"Ti ora tha einai etoimaparadoto to domatio th mera pou thelo na to noikiaso?",
+"Bon appartement",
 1,
 13);
 
@@ -2165,7 +2165,7 @@ VALUES
 0,
 0,
 NOW(),
-"Geia sas",
+"Bon appartement",
 1,
 14);
 
@@ -2184,7 +2184,7 @@ VALUES
 0,
 0,
 NOW(),
-"Yparxoun magazia konta sto diamerisma?",
+"Bon appartement",
 1,
 14);
 
@@ -2203,7 +2203,7 @@ VALUES
 0,
 0,
 NOW(),
-"kalhspera sas",
+"Bon appartement",
 1,
 8);
 
@@ -2222,7 +2222,7 @@ VALUES
 0,
 0,
 NOW(),
-"Exo mia aporia sxetika me thn aggelia sas",
+"Bon appartement",
 1,
 8);
 
@@ -2241,7 +2241,7 @@ VALUES
 0,
 0,
 NOW(),
-"Poso konta einai to domatio sthn paralia?",
+"Bon appartement",
 1,
 8);
 
@@ -2260,7 +2260,7 @@ VALUES
 0,
 0,
 NOW(),
-"Epishs, poies einai oi dinatothtes gia faghto konta?",
+"Bon appartement",
 1,
 8);
 
@@ -2279,7 +2279,7 @@ VALUES
 0,
 0,
 NOW(),
-"Euxaristw ek twn proterwn",
+"Bon appartement",
 1,
 8);
 
@@ -2299,7 +2299,7 @@ VALUES
 0,
 0,
 NOW(),
-"Thelo na sas rotisw 2 pragmata gia to dwmatio",
+"Bon appartement",
 1,
 9);
 
@@ -2318,7 +2318,7 @@ VALUES
 0,
 0,
 NOW(),
-"Pote tha mporousa na sas kaleso?",
+"Bon appartement",
 1,
 9);
 
@@ -2337,7 +2337,7 @@ VALUES
 0,
 0,
 NOW(),
-"Euxaristw",
+"Bon appartement",
 1,
 9);
 
@@ -2356,7 +2356,7 @@ VALUES
 0,
 0,
 NOW(),
-"Epishs, poies einai oi dinatothtes gia faghto konta?",
+"Bon appartement",
 1,
 14);
 
@@ -2375,7 +2375,7 @@ VALUES
 0,
 0,
 NOW(),
-"peite moy ti ora mporeite na sas kaleso",
+"Bon appartement",
 1,
 14);
 
@@ -2394,7 +2394,7 @@ VALUES
 0,
 0,
 NOW(),
-"Euxaristw poly",
+"Bon appartement",
 1,
 14);
 
@@ -2413,6 +2413,6 @@ VALUES
 0,
 0,
 NOW(),
-"Yparxei stash leoforeiou konta?",
+"Bon appartement",
 1,
 3);

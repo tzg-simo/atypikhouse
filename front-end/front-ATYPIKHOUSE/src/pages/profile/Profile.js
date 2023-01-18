@@ -156,9 +156,9 @@ class Profile extends Component {
     }
     return (
       <React.Fragment>
-        <div className="container" style={{width: '100%', padding: '0% 10%', margin: '8% auto', backgroundColor: '#ff9', position: 'relative', border: 'solid 3px purple'}}>
+        <div className="container" style={{width: '100%', padding: '0% 10%', margin: '8% auto', backgroundColor: '#fff', position: 'relative', border: 'solid 3px #ccc'}}>
           {!this.state.edit && (
-            <div className="profile-content" style={{width: '100%', paddingBottom: '10%', marginTop: '10%', backgroundColor: '#ff9'}}>
+            <div className="profile-content" style={{width: '100%', paddingBottom: '10%', marginTop: '10%', backgroundColor: '#fff'}}>
               <div style={{width: '50%', height: '250px', float: 'right'}}>
                 {this.state.image && (
                   <img src={this.state.image} alt='img' 

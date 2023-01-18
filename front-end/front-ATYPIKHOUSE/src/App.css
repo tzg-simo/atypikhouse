@@ -24,7 +24,7 @@ body{
 
 .header{
   grid-area: header;
-  background-color: #203040;
+  background-color: #fff;
   padding: 0%;
 }
 
@@ -53,9 +53,16 @@ li{
 }
 
 .navbar-links a{
-  color:#fff;
+  color:rgb(91, 141, 156);
   text-decoration: none;
   padding: 1rem;
+  transition: all.5s;
+}
+
+.navbar-links a:hover{
+  color: rgb(183, 183, 19);
+  border-bottom: 2px solid #ccc;
+  border-radius: 5px;
 }
 
 .navbar-boards{
@@ -65,8 +72,15 @@ li{
 }
 
 .navbar-boards a{
-  color: #fff;
+  color:rgb(91, 141, 156);
   text-decoration: none;
+  transition: all .5s;
+}
+
+.navbar-boards a:hover{
+  color: rgb(183, 183, 19);
+  border-bottom: 2px solid #ccc;
+  border-radius: 5px;
 }
 
 .navbar-links{
@@ -76,14 +90,14 @@ li{
   right: 5px;
 }
 
-.navbar-links:hover{
+/* .navbar-links:hover{
   color:#ff8000;
-}
+} */
 
 .main{
   grid-area: main;
   background-color: transparent;
-  background-image: url(./images/main-background.jpg);
+  background-image: url(./images/main.jpg);
   background-position: fixed;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -91,7 +105,7 @@ li{
 
 .footer{
   grid-area: footer;
-  background-color: #203040;
+  background-color: black;
   color: #fff;
   display: flex;
   justify-content: center;

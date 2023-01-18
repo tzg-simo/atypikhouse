@@ -53,7 +53,7 @@ class UserProfile extends Component {
 
   render(){
     return (
-      <div className="user-view-admin" style={{width: '100%', padding: '5% 15%', margin: '5% 0%', backgroundColor: '#ff9'}}>
+      <div className="user-view-admin" style={{width: '100%', padding: '5% 15%', margin: '5% 0%', backgroundColor: '#fff'}}>
         <div style={{position: 'absolute', right: '15%'}}>
           {this.state.image && (
               <img src={this.state.image} alt='img' style={{width: '250px', height: '250px'}}/>

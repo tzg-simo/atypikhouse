@@ -149,7 +149,7 @@ class Home extends Component {
     return (
         <div>
           <div className="home-main-container">
-            <header><h1 style={{fontFamily:'arial'}}><strong>Planifiez votre voyage en toute simplicité !</strong></h1></header>
+            <header><h1 style={{fontFamily:'arial', color: "#f9f9f9"}}><strong>Planifiez votre voyage en toute simplicité !</strong></h1></header>
             {!this.state.successful && (
                 <Form
                     autoComplete = 'off'
@@ -165,7 +165,7 @@ class Home extends Component {
                     <div className='map-container'>
                       <OpenStreetMap width='450px' height='450px' markerPosition = {this.state.markerPosition} />
                     </div>
-                    <h3>Je cherche ...</h3>
+                    <h3>Je cherche</h3>
                     <table style={{width: '400px', marginLeft: '2%'}}>
                       <tbody>
                       <tr>
@@ -205,7 +205,7 @@ class Home extends Component {
                             <label htmlFor="text" style = {{marginRight: '16px'}}>
                               * Personne
                             </label>
-                            <NumericInput min={0} max={10}
+                            <NumericInput min={0} max={10} className="form-control"
                                           value={this.state.guests}
                                           onChange={e => {
                                             this.setState({guests: e})
@@ -215,10 +215,10 @@ class Home extends Component {
                         </td>
                         <td> {/* Maximum cost */}
                           <div className="form-field">
-                            <label htmlFor="text" style = {{marginRight: '16px'}}>
+                            <label htmlFor="text" style = {{marginRight: '16px', marginTop:'20px'}}>
                               Prix max
                             </label>
-                            <NumericInput min={0} max={10}
+                            <NumericInput min={0} max={10} className="form-control"
                                           value={this.state.maxCost}
                                           onChange={e => {
                                             this.setState({maxCost: e})
@@ -236,6 +236,7 @@ class Home extends Component {
                         <td> {/* When */}
                           <label style={{width: '160px'}}>* De:</label>
                           <DatePicker
+                              className="form-control"
                               selected={this.state.startDate}
                               onChange={date => {
                                 this.setState({
@@ -249,6 +250,7 @@ class Home extends Component {
                         <td>
                           <label>* à:</label>
                           <DatePicker
+                              className="form-control"
                               selected={this.state.endDate}
                               onChange={date => {
                                 this.setState({
@@ -265,7 +267,7 @@ class Home extends Component {
                         <td> {/* Category */}
                           <div className="form-field">
                             <label htmlFor="text">Categorie</label>
-                            <select onChange={e => {
+                            <select className="form-control" onChange={e => {
                               this.setState({type: e.target.value});
                             }
                             }>

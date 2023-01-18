@@ -6,6 +6,7 @@ import Routes from "./routes/allRoutes";
 import { AuthContext } from "./context/auth";
 import Helmet from 'react-helmet';
 import "./App.css";
+import { blue } from "@material-ui/core/colors";
 
 class App extends Component {
   constructor() {
@@ -53,7 +54,7 @@ class App extends Component {
       <AuthContext.Provider value = { currentUser}>
           <Helmet>
             <meta charSet="utf-8" />
-            <title>ATYPIKHOUSE</title>
+            <title>AtypikHouse site de location</title>
           </Helmet>
         {dualRole && (
           <div style = {{width: '100%', height: '105%', position: 'absolute', top: '0%' , zIndex:'10',  paddingTop:'15%', backgroundImage: `url(${require('./images/main-background.jpg')})`}}>
@@ -92,7 +93,7 @@ class App extends Component {
             <nav className="navbar">
               <Link to={'/'}>
                 <img id="logo" src= {require('./images/logo-text.jpg')}
-                  width='400px' height='60px' alt='logo'
+                  width='200px' height='60px' alt='logo'
                   style={{marginBottom: '8px'}}/>
               </Link>
               <div className="navbar-boards">
@@ -184,7 +185,7 @@ class App extends Component {
             {Routes()}
           </main>
           <footer className="footer">
-            &copy;	All rights reserved
+            &copy;	All right reserved <span style={{color: 'rgb(91, 141, 156)', marginLeft:'5px', display:'inline-block'}}>AtypikHouse</span>
           </footer>
         </div>
       </AuthContext.Provider>

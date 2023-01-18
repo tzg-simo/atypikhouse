@@ -76,7 +76,7 @@ class HostMessages extends Component {
       <React.Fragment>
         <div className="container" 
           style={{width: '100%', padding: '5%', marginTop: '10%', marginBottom: '10%',
-          backgroundColor: '#ff9', border: 'solid 3px purple', textAlign: 'center'}}>
+          backgroundColor: '#fff', border: 'solid 3px #ccc', textAlign: 'center'}}>
           <h2>Messages:</h2>
           <h5>(Latest first)</h5>
           <HostMessageList messages={currentMessages} loading={this.state.loading} 

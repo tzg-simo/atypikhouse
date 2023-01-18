@@ -32,7 +32,7 @@ class ListingResults extends Component {
     }
 
     return (
-      <div className="container" style={{width: '100%', padding: '5%', backgroundColor: '#ccc', boxShadow: '5px 5px #888888'}}>
+      <div className="container" style={{width: '100%', padding: '5%', backgroundColor: '#fff', boxShadow: '5px 5px #888888', marginTop:'45px'}}>
         <h2 style={{textAlign: 'center', color: 'red'}}>Total {' '} {listings.length} {' '} results</h2>
         <Pagination resultsPerPage = {this.state.listingsPerPage} totalResults = {listings.length} paginate = {paginate} currentPage = {this.state.currentPage} />
         <ResultsList listings={currentListings} guests={guests}
